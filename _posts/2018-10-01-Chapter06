@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Chapter06"
+date: 2018-10-01 4:20:00
+categories: Data_science
+---
+
+# 2018-10-01-Chapter06.md
+
+## K-fold Test와 Overfitting 과적합
+* Training / Test set / Validation set 을 나누어, 훈련, 테스트, 검증의 과정을 K회 진행하여 성능을 도출
+  * Sample 분화: Training Set 모델 만들 때 사용 / Validating Set 모델 조정하기 위해 사용 Test Set 모델의 최종 평가 위해 사용
+  * 충분한 교차검증을 거치지 않을경우, 훈련 데이터에만 최적화 되는 과적합Overfitting이 일어남 
+<img src = 'http://www.cs.nthu.edu.tw/~shwu/courses/ml/labs/08_CV_Ensembling/fig-holdout.png'>
