@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Chapter07"
-date: 2018-10-01 4:20:00
+title:  "Data Structure & File IO & Exception"
+date:   2018-10-30 10:01:13
 categories: Data_science
 ---
 
-# 2018-10-01-Chapter07.md
+# Data Structure & File IO & Exception.md
 
 ## 재귀함수
 ```
