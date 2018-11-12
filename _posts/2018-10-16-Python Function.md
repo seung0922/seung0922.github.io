@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Chapter06"
-date: 2018-10-01 4:20:00
+title: "Python Function"
+date: 2018-10-16 4:20:00
 categories: Data_science
 ---
 
-# 2018-10-01-Chapter06.md
+# Python Function.md
 
 ## K-fold Test와 Overfitting 과적합
 * Training / Test set / Validation set 을 나누어, 훈련, 테스트, 검증의 과정을 K회 진행하여 성능을 도출
