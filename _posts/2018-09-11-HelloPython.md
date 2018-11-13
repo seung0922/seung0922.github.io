@@ -8,7 +8,7 @@ categories: Data_science
 # Hello Python.md
 
 ## 에디터
-* Anaconda
+#### Anaconda
 	* 데이터 분석에 필요한 많은 Package들을 포함하고 있어서 의존성 관리에 용이
 	* 설치시, 환경변수를 자동으로 잡아주는 등 편리한 부분이 많음
 	* Jupyter
@@ -16,7 +16,7 @@ categories: Data_science
 	* Spyder
 	- 통합 개발 환경(IDE)지원
 
-* Sublime Text
+#### Sublime Text
 	* 대부분의 프로그래밍 언어의 문법 강조 기능 지원 -> 가벼운 코드 Editor 급하게 사용할 때 편리
 
 ## Python이란?
