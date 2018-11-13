@@ -17,12 +17,12 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$color-link: #36;
-$color-link-hover: #69;
+$color-link: #036;
+$color-link-hover: #069;
 
-$header-bg: #ff7700;
-$header-bg-hover: #A4A8BC;
-$header-link: #f4f5f7;
+$header-bg: #0C273D;
+$header-bg-hover: #78909C;
+$header-link: #CFD8DC;
 $header-fg: #FFF;
 
 @mixin media-query($device) {
