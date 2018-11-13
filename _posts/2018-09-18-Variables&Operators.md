@@ -67,7 +67,7 @@ b = 4.24E10
 ## 계산기 만들기
 ```
 # encoding=utf-8
-# 2016-12-17 class
+
 def function_test(num, val1, val2):
     def minus():
         print val1 - val2
