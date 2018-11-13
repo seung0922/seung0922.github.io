@@ -62,3 +62,38 @@ b = 4.24E10
 3. change theme를 통해 원하는 테마 선택 후, 적용하면 적용된 화면을 볼 수 있음
 4. 원하는 테마를 선택한 후, 저장소를 Fofk한 후, [github사용자명].github.com으로 이름 변경
 5. 설정한 사이트로 이동하여 내용이 잘 표시되는지 확인
+
+
+## 계산기 만들기
+```
+# encoding=utf-8
+# 2016-12-17 class
+def function_test(num, val1, val2):
+    def minus():
+        print val1 - val2
+    def plus():
+        print val1 + val2
+    def muplti():
+        print val1 * val2
+    def division():
+        print val1 / val2
+    if num == 1:
+        return plus()
+    elif num == 2:
+        return minus()
+    elif num == 3:
+        return muplti()
+    elif num == 4:
+        return division()
+
+def customzied_bitshift():
+    print "비트 쉬프트 연산을 합니다."
+
+
+val1 = int(raw_input("첫번째 수: "))
+val2 = int(raw_input("두번째 수: "))
+print "[1.덧셈 2. 뺄셈 3. 곱셈 4. 나눗셈]"
+opt = raw_input("원하시는 연산을 입력하세요: ")
+
+function_test(int(opt), val1, val2)
+```
